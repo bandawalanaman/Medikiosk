@@ -357,11 +357,11 @@ adding OCR or AI.
   Layer                   Technology              Responsibility
   ----------------------- ----------------------- -----------------------
   Frontend                React, Vite,            PWA, patient intake,
-                          TypeScript, Tailwind    clinician dashboard
+                          JavaScript, Tailwind    clinician dashboard
                           CSS                     
 
   Frontend-facing API     Node.js, Express,       BFF/API orchestration,
-                          TypeScript              request aggregation,
+                          JavaScript              request aggregation,
                                                   upload coordination
 
   Core workflow service   Spring Boot, Spring     Encounter lifecycle,
@@ -751,7 +751,7 @@ deployment.
 
 ``` text
 medikiosk/
-├── frontend/          # React + Vite + TypeScript PWA
+├── frontend/          # React + Vite + JavaScript PWA
 ├── node-api/          # Express BFF/orchestration
 ├── spring-service/    # Spring Boot workflow service
 ├── ai-service/        # Optional OCR/AI worker

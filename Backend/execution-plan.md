@@ -12,7 +12,7 @@ The P0 path is delivered before OCR or AI: create/resume an encounter, capture c
 
 ## Technical Context
 
-**Language/Version:** Java 17+ with Spring Boot; Node.js LTS with TypeScript  
+**Language/Version:** Java 17+ with Spring Boot; Node.js LTS with JavaScript  
 **Primary dependencies:** Spring Web, Spring Security, Bean Validation, Spring Data JPA, PostgreSQL driver, MongoDB driver, Express, Zod or equivalent request validation, OpenAPI tooling, test containers where available  
 **Storage:** PostgreSQL for users, roles, encounters, consent, documents, reviews, and audit; MongoDB for questionnaire versions, answers, extraction metadata, and draft references; private local/object storage for original files  
 **API boundary:** React calls Node.js BFF; BFF calls authenticated Spring internal APIs and the AiEngine only for enabled processing  
